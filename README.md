@@ -15,6 +15,18 @@ npm run compile:sass
 
 Now you can find your files inside the `bin` folder
 
+## Usage
+
+This project is just starting, but currently this is how you change colors
+
+1. changing color values: do it only in sass/components/\_color-variables.css
+2. changing how colors affect the components(buttons, etc): edit only the sass/components/\_variables.css
+
+When you are done making your changes, compile the sass using:   
+`npm run compile:sass`
+
+To check you changes open the files in `test/html` (only buttons.html working for now)
+
 # Materialize README
 
 

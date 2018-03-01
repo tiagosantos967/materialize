@@ -16,7 +16,7 @@
     "url": "https://github.com/Dogfalo/materialize/issues"
   },
   "scripts": {
-    "compile:sass": "grunt sass_compile", 
+    "compile:sass": "grunt sass_compile",
     "dev": "grunt monitor",
     "test": "grunt travis --verbose"
   },

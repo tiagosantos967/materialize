@@ -39,9 +39,28 @@ $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
 $secondary-color: color("teal", "lighten-1") !default;
+$secondary-color-light: lighten($secondary-color, 15%) !default;
+$secondary-color-dark: darken($secondary-color, 15%) !default;
+
+$tertiary-color: color("purple", "lighten-2") !default;
+$tertiary-color-light: lighten($tertiary-color, 15%) !default;
+$tertiary-color-dark: darken($tertiary-color, 15%) !default;
+
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
+
+.primary-color {
+  background-color: $primary-color !important;
+}
+
+.secondary-color {
+  background-color: $secondary-color !important;
+}
+
+.tertiary-color {
+  background-color: $tertiary-color !important;
+}
 
 
 // 2. Badges
