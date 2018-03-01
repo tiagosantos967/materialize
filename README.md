@@ -1,3 +1,23 @@
+
+# Fork README
+
+I am starting this project due to the lack of an easy way of using different color pallets with Materialize.
+
+I don't get any credits for the Materialize project
+
+## Installation
+
+```
+npm install
+
+npm run compile:sass
+```
+
+Now you can find your files inside the `bin` folder
+
+# Materialize README
+
+
 <p align="center">
   <a href="http://materializecss.com/">
     <img src="http://materializecss.com/res/materialize.svg" width="150">
